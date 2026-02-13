@@ -32,7 +32,7 @@ const sadPopupMessages = [
   "cge na ba bb :< ",
   "Last nalng i YES NA! >:/"
 ];
-const sadPopupImages = ["pics/cat2.jpg", "pics/cat3.jpg", "pics/cat4.png"];
+const sadPopupImages = ["cat2.jpg", "cat3.jpg", "cat4.png"];
 
 function spawnFloatHeart() {
   const el = document.createElement("span");
@@ -151,3 +151,4 @@ sadPopup.addEventListener("click", (event) => {
     return;
   }
 });
+
