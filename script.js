@@ -79,7 +79,7 @@ yesBtn.addEventListener("click", (event) => {
 });
 
 noBtn.addEventListener("click", () => {
-  noImage.src = "pics/cat1.jpg";
+  noImage.src = "cat1.jpg";
   noPopup.style.display = "flex";
   noPopup.setAttribute("aria-hidden", "false");
 
@@ -151,4 +151,5 @@ sadPopup.addEventListener("click", (event) => {
     return;
   }
 });
+
 
